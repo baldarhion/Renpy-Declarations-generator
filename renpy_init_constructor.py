@@ -7,13 +7,10 @@
 # This script is intended to be executed just a rep below assets (BG directory, Sprites directory, ...). It will parse the subdirectories
 # However, try to organize your directories to generate a usable-for-common-user script !
 # 
-# Working fine with my GNU/Linux distro (Ubuntu 13.10 buguy-Salamender (never mess with your kernel...))
-# Should work with MacOS (from Lamerz-duck to Mountain-Lion-Leopard-of-the-world) and Windows since no unix-unique methods are used
+# Working fine with my GNU/Linux distro
+# Should work with MacOS and Windows since no unix-unique methods are used
 #
-# 
-# Feel free to report bugs, ideas, enhancement (yes... I use python since two weeks (who says "too weak"???)...)
-# mail : baldarhion at gmail.com
-
+# for any comments : baldarhion@gmail.com
 
 
 # Parameters section
@@ -92,7 +89,5 @@ dest.close()
 # Yep... code is drown in comments... And i like that... 
 # This code is not optimised for... huh... education purpose (:o]) (at least... mine :p)
 # Hope it will be useful for those who want to port Dostoievsky books to VN. 
-# Ah ! it reminds me a joke : a man is reading the Washington phone book. An other man ask:
-# - Hey ? Is it an interesting story dude ?
-# - Dunno... Too much characters...
+
 
