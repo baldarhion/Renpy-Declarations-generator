@@ -57,7 +57,7 @@ for root, dirs, files in os.walk("."+path_to_character):  # Well, let'move in th
       if sprite.endswith ((".png",".PNG",".jpg",".JPG")): # Strip off file's type
         sprite = sprite [:-4]                             
       files.append (path_to_character)                    # Concatenate path+file name
-      seq = ("image "+sprite+":\""+acces_file+"\"\n"+indent+"yanchor 1 ypos 1 xanchor 0.5\n"+indent+"zoom 0.6\n"+indent+"subpixel True\n")
+      seq = ("image "+sprite+":\""+acces_file+"\"\n"+indent+"yanchor 1 ypos 1 xanchor 0.5\n"+indent+"zoom 0.6\n"+indent+"subpixel True\n") #Of course, you can remove anchor, zoom setting heh ;)
       list_seq.append(seq)                                # append codes lines to a list (we'll see why further...)
     tag_char = name.lower()[0:3]                          # Assuming the directory's name is also the character name, we get the 3 first letters(lowercase) 
     name_char = name.replace ("/","")                     # we remove the "/" and the "."
