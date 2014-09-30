@@ -1,0 +1,34 @@
+I'm a lazy programmer, and I figured that writing all this stuff for declarations was not for me (Shells-scripts lovers will understand :p).
+
+So, here is the how-to. I assume that all your sprites are in a subdirectory of /game/ and you have one folder for each character (and of course the name of the directory is the name of the character). Your BG are in a directory.
+
+To sum up, here's the recommended directories structure:
+
+
+/game/
+       |_______/Characters/
+       |                  |_________/Kiko/
+       |                  |           |______________/kiko_uniform_angry.png
+       |                  |           |______________/kiko_casual_angry.png
+       |                  |
+       |                  |_________/Sigmund/
+       |                              |______________/sigmund_feud.png
+       |                              |______________/sigmund_uniform_hungry.png
+       |
+       |
+       |________/BG/
+       |          |______________/messy_kitchen.jpg
+       |          |______________/messy-graveyard.jpg
+       |
+       |__renpy_init_script.py
+
+
+So... The script will build a file named "_renpy.py".
+
+In this file you'll have all the declarations done. The script will build character tags (ex: "kik" for Kiko, "sig" for Sigmund, etc...)
+
+This script is fully commented so you can customize it easily.(I can help you if you wish... Don't be shy !)
+
+Well, hope it will be useful.
+
+Don't forget to modify the variables to fit your project.
